@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30104.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCore_Docker", "AspNetCore_Docker\AspNetCore_Docker.csproj", "{CF5B03DF-CE46-4301-84A8-19211932095D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PostgreDB_Connection", "PostgreDB_Connection\PostgreDB_Connection.csproj", "{EDCB1945-F554-4955-B697-2B4BE2180C29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CF5B03DF-CE46-4301-84A8-19211932095D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF5B03DF-CE46-4301-84A8-19211932095D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF5B03DF-CE46-4301-84A8-19211932095D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF5B03DF-CE46-4301-84A8-19211932095D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDCB1945-F554-4955-B697-2B4BE2180C29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDCB1945-F554-4955-B697-2B4BE2180C29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDCB1945-F554-4955-B697-2B4BE2180C29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDCB1945-F554-4955-B697-2B4BE2180C29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E894CC1-50A8-4CC0-8EFD-E121A110EF2D}
+	EndGlobalSection
+EndGlobal

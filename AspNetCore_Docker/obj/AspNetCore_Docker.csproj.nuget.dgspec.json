@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\AspNetCore_Docker.csproj": {}
+  },
+  "projects": {
+    "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\AspNetCore_Docker.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\AspNetCore_Docker.csproj",
+        "projectName": "AspNetCore_Docker",
+        "projectPath": "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\AspNetCore_Docker.csproj",
+        "packagesPath": "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlvaroCaparrosCarden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\PostgreDB_Connection.csproj": {
+                "projectPath": "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\PostgreDB_Connection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\PostgreDB_Connection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\PostgreDB_Connection.csproj",
+        "projectName": "PostgreDB_Connection",
+        "projectPath": "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\PostgreDB_Connection.csproj",
+        "packagesPath": "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\AspNetCore_Docker\\PostgreDB_Connection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlvaroCaparrosCarden\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[3.1.3, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL.Design": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
