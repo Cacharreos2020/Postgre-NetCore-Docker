@@ -8,7 +8,7 @@
 
     <a class="btn btn-info" href="@Url.ActionLink("Add_Users","Home")">Add Users</a>
     <a class="btn btn-success" href="@Url.ActionLink("Reload","Home")">Select Users</a>
-    <a class="btn btn-danger" href="@Url.ActionLink("Use_Seed","Home")">Use Seeder (Warning)</a>
+    <a class="btn btn-danger" hidden="hidden" href="@Url.ActionLink("Use_Seed","Home")">Use Seeder (Warning)</a>
 
     @{ 
         if (ViewBag.DataDB != null)

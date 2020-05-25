@@ -33,11 +33,10 @@ namespace AspNetCore_Docker.Controllers
         public IActionResult Add_Users()
         {
             string exito = "";
+            users usr = new users();
             try
             {
-                users usr = new users {  
-                    name = "Test" 
-                };
+                usr.name = "Test";
 
                 context.users.Add(usr);
                 context.SaveChanges();
@@ -55,7 +54,19 @@ namespace AspNetCore_Docker.Controllers
 
         public IActionResult Reload()
         {
-            TempData["DataDB"] = String.Concat(context.users.Where(us => us.name == "Test").Select(usr => usr.name).FirstOrDefault(), ". Usuarios en BD: ", context.users.Where(us => us.name == "Test").ToList().Count().ToString());
+            string exito = "";
+
+            try
+            {
+                TempData["DataDB"] = String.Concat(context.users.Where(us => us.name == "Test").Select(usr => usr.name).FirstOrDefault(), ". Usuarios en BD: ", context.users.Where(us => us.name == "Test").ToList().Count().ToString());
+                
+            }
+            catch (Exception e)
+            {
+                exito = "Error al listar usuarios: " + e.Message;
+                TempData["DataDB"] = exito;
+            }
+            
             return RedirectToAction("Index");
         }
 
