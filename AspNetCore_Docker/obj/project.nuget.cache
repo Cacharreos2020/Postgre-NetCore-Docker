@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "GkkRXjCbdlFPrBemwgfqlp789/3r4n0Y+z5hTTKd3Gr96+R4+v2SNmzpbEC8GkSKjYeUtTexVFmERoVv+7lj6Q==",
+  "dgSpecHash": "ntdgS+1/GtmiOnhRpl5UHH2laBEjdIpHuJJU4T2Hu2G/LkzlsKKzLsYKb0ow2mpbnGs4LBIZLKx1moXhzivnIg==",
   "success": true,
   "projectFilePath": "C:\\Projects\\AspNetCore_Docker\\AspNetCore_Docker\\AspNetCore_Docker.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.3\\microsoft.extensions.primitives.3.1.3.nupkg.sha512",
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
+    "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.10.8\\microsoft.visualstudio.azure.containers.tools.targets.1.10.8.nupkg.sha512",
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\netstandard.library\\1.6.1\\netstandard.library.1.6.1.nupkg.sha512",
     "C:\\Users\\AlvaroCaparrosCarden\\.nuget\\packages\\npgsql\\4.1.3\\npgsql.4.1.3.nupkg.sha512",

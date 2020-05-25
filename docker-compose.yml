@@ -1,0 +1,12 @@
+version: "3"
+services:
+  web:
+    build: .
+    links:
+      - "db:database"
+    ports:
+      - "8080:80"
+  db:
+    image: cacharreos2020/docker_postgresql
+    ports:
+      - "8081:5432"

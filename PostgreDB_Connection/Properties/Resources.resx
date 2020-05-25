@@ -118,6 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Postgre_Connection" xml:space="preserve">
-    <value>host=localhost;port=5432;database=test_db;user id=postgres;password=Admin_1234</value>
+    <value>host=cacharreos2020//docker_postgresql;port=5432;database=docker;user id=docker;password=docker</value>
   </data>
 </root>

@@ -61,7 +61,7 @@ namespace PostgreDB_Connection.Properties {
         }
         
         /// <summary>
-        ///   Busca una cadena traducida similar a host=localhost;port=5432;database=test_db;user id=postgres;password=Admin_1234.
+        ///   Busca una cadena traducida similar a host=cacharreos2020//docker_postgresql;port=5432;database=docker;user id=docker;password=docker.
         /// </summary>
         internal static string Postgre_Connection {
             get {
