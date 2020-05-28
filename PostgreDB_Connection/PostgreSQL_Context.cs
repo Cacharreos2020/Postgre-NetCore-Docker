@@ -15,5 +15,7 @@ namespace PostgreDB_Connection
         }
 
         public DbSet<users> users { get; set; }
+
+        public DbSet<cars> cars { get; set; }
     }
 }

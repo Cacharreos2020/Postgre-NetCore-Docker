@@ -11,5 +11,7 @@ namespace PostgreDB_Connection.Entities
         public int idusers { get; set; }
 
         public string name { get; set; }
+
+        public string lastname { get; set; }
     }
 }
